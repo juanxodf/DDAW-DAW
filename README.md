@@ -1,8 +1,3 @@
-Por supuesto 😊
-Aquí tienes un ejemplo de **README.md** claro, sencillo y sin tecnicismos, adaptado a lo que pides:
-
----
-
 # 📁 Repositorio de Despliegue de Aplicaciones Web (DDAW)
 
 Este repositorio pertenece al módulo **Despliegue de Aplicaciones Web (DDAW)** del **2º curso del ciclo de Desarrollo de Aplicaciones Web (DAW)**.
