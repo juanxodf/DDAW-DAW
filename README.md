@@ -10,6 +10,9 @@ Cada carpeta o proyecto incluirá sus propios archivos, instrucciones y document
 ## 📚 Contenido
 
 * *Docker* : Ejercicio Docker + precommits + flask
+* *SonarQube* : Formateo, Estilo de Código y Análisis con SonarQube
+
+
 ---
 
 ## 🧑‍💻 Objetivo del módulo
