@@ -9,9 +9,10 @@ Cada carpeta o proyecto incluirá sus propios archivos, instrucciones y document
 
 ## 📚 Contenido
 
-* *Docker* : Ejercicio Docker + precommits + flask
-* *SonarQube* : Formateo, Estilo de Código y Análisis con SonarQube
-
+* **GitHub 🐙** : Git
+* **GitHub 🐙** : Git y ramas
+* **Docker 🐳** : Ejercicio Docker + precommits + flask
+* **SonarQube 🔎** : Formateo, Estilo de Código y Análisis con SonarQube
 
 ---
 
@@ -22,6 +23,7 @@ Aprender a **preparar, desplegar y mantener aplicaciones web** en diferentes ent
 ---
 
 ## 🏫 Información
+
 * **Ciclo:** Desarrollo de Aplicaciones Web (DAW)
 * **Curso académico:** 2025-2026
 * **Profesor/a:** *Antonio Pulido*
