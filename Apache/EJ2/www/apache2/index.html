@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informática vs Magisterio: La Batalla Épica 🎮</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            margin-bottom: 40px;
+            animation: fadeIn 1s ease-in;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+            animation: bounce 2s infinite;
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            opacity: 0.9;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .card-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .card h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #ffd700;
+        }
+
+        .card p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .stats-section {
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .stat-item {
+            display: inline-block;
+            margin: 20px 40px;
+            animation: pulse 2s infinite;
+        }
+
+        .stat-number {
+            font-size: 4em;
+            font-weight: bold;
+            color: #00ff88;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+
+        .reasons-list {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+
+        .reasons-list h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #ffd700;
+        }
+
+        .reason {
+            background: rgba(0, 0, 0, 0.3);
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #00ff88;
+            transition: all 0.3s ease;
+        }
+
+        .reason:hover {
+            background: rgba(0, 0, 0, 0.5);
+            transform: translateX(10px);
+        }
+
+        .reason-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #00ff88;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            margin-top: 60px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+        }
+
+        .disclaimer {
+            font-size: 0.9em;
+            opacity: 0.7;
+            font-style: italic;
+            margin-top: 20px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .emoji-rain {
+            position: fixed;
+            top: -50px;
+            font-size: 2em;
+            animation: fall 5s linear infinite;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        @keyframes fall {
+            to { transform: translateY(100vh) rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💻 INFORMÁTICA vs 📚 MAGISTERIO 💻</h1>
+            <p class="subtitle">La guía definitiva (y totalmente no sesgada) 😏</p>
+        </header>
+
+        <div class="comparison-grid">
+            <div class="card">
+                <span class="card-icon">💰</span>
+                <h2>El Dinero Habla</h2>
+                <p>Informática: Empiezas ganando lo que un maestro cobra después de 15 años. Y eso trabajando en pijama desde casa.</p>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">🏖️</span>
+                <h2>Horarios</h2>
+                <p>Informática: Flexibilidad total. Magisterio: ¿Te gustan las 7 AM? Porque te van a ENCANTAR las 7 AM.</p>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">🌍</span>
+                <h2>Trabajo Remoto</h2>
+                <p>Informática: Trabaja desde Bali. Magisterio: Trabaja desde... el aula 2B. Siempre. Todos los días.</p>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">🎮</span>
+                <h2>Diversión</h2>
+                <p>Informática: Tu trabajo ES hacer videojuegos (o apps, o IA). Magisterio: Tu trabajo es explicar la tabla del 7 por 973ª vez.</p>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">🤖</span>
+                <h2>El Futuro</h2>
+                <p>Informática: TÚ CREAS el futuro. Magisterio: Esperas que la IA no te reemplace (spoiler: ya hay profesores virtuales).</p>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">😎</span>
+                <h2>Factor Cool</h2>
+                <p>Informática: "Trabajo en Silicon Valley". Magisterio: "Trabajo con niños de 8 años que me llaman 'profe'... y no en el buen sentido".</p>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <h2 style="font-size: 2.5em; margin-bottom: 40px;">Las Estadísticas No Mienten</h2>
+            <div class="stat-item">
+                <span class="stat-number">3X</span>
+                <span class="stat-label">Más salario inicial</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">∞</span>
+                <span class="stat-label">Oportunidades globales</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">0</span>
+                <span class="stat-label">Padres enfadados en reuniones</span>
+            </div>
+        </div>
+
+        <div class="reasons-list">
+            <h2>🚀 Top 10 Razones Irrefutables 🚀</h2>
+            
+            <div class="reason">
+                <div class="reason-title">1. Bugs vs Mocosos</div>
+                <p>Depurar código es frustrante, pero al menos el código no te tira bolitas de papel cuando te das la vuelta.</p>
+            </div>
+
+            <div class="reason">
+                <div class="reason-title">2. Stack Overflow > Sala de Profesores</div>
+                <p>Toda la comunidad global resolviendo tus problemas vs. el café aguado y quejas sobre el parking.</p>
+            </div>
+
+            <div class="reason">
+                <div class="reason-title">3. Reuniones de Zoom vs Reuniones con Padres</div>
+                <p>En Zoom puedes silenciar a la gente. Con los padres... no tanto.</p>
+            </div>
+
+            <div class="reason">
+                <div class="reason-title">4. Evolución Constante</div>
+                <p>Cada año hay nuevas tecnologías emocionantes. En magisterio... el plan de estudios cambió en 1987 y ya está bien así.</p>
+            </div>
+
+            <div class="reason">
+                <div class="reason-title">5. Dress Code: Inexistente</div>
+                <p>Hoodie y chanclas = outfit profesional en tech. Intenta eso en un colegio.</p>
+            </div>
+
+            <div class="reason">
+                <div class="reason-title">6. Tus Clientes Te Respetan</div>
+                <p>En informática, tus clientes necesitan tu expertise. En magisterio, tus "clientes" tienen 10 años y piensan que TikTok es más importante.</p>
+            </div>
+
+            <div class="reason">
+                <div class="reason-title">7. Vacaciones Reales</div>
+                <p>"Sí, los maestros tienen muchas vacaciones" - que pasan preparando clases. Los devs tienen vacaciones REALES.</p>
+            </div>
+
+            <div class="reason">
+                <div class="reason-title">8. Automatización</div>
+                <p>No te gusta algo? Escribe un script. Intenta automatizar a 25 niños de 7 años.</p>
+            </div>
+
+            <div class="reason">
+                <div class="reason-title">9. Snacks Ilimitados</div>
+                <p>Oficinas tech = snacks gratis, café premium, frutas frescas. Colegios = café de máquina a 1€.</p>
+            </div>
+
+            <div class="reason">
+                <div class="reason-title">10. Tu Trabajo Importa Globalmente</div>
+                <p>Crea una app y millones la usan. Da una clase magistral y... bueno, 25 alumnos la escucharon (5 prestando atención).</p>
+            </div>
+        </div>
+
+        <footer>
+            <h2 style="font-size: 2em; margin-bottom: 20px;">🎯 La Conclusión Obvia 🎯</h2>
+            <p style="font-size: 1.3em;">Informática: Dinero, flexibilidad, tecnología, futuro.<br>
+            Magisterio: Vocación, niños gritando, correcciones infinitas, bajo salario.</p>
+            <p style="margin-top: 30px; font-size: 1.5em;">TÚ DECIDES. 🤷‍♂️</p>
+            
+            <p class="disclaimer">
+                * Esta página es pura broma. Los maestros son héroes que moldean el futuro y merecen TODO nuestro respeto (y un salario mucho mejor). 
+                Pero hey, si prefieres debuggear código a las 3 AM en lugar de explicar las restas con llevada... ya sabes qué elegir. 😉
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Lluvia de emojis aleatorios
+        const emojis = ['💻', '🚀', '💰', '🎮', '🤖', '😎', '⚡', '🔥'];
+        
+        function createEmojiRain() {
+            const emoji = document.createElement('div');
+            emoji.className = 'emoji-rain';
+            emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+            emoji.style.left = Math.random() * 100 + 'vw';
+            emoji.style.animationDuration = (Math.random() * 3 + 2) + 's';
+            document.body.appendChild(emoji);
+            
+            setTimeout(() => emoji.remove(), 5000);
+        }
+
+        setInterval(createEmojiRain, 500);
+
+        // Efectos de hover en las cards
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('click', () => {
+                card.style.background = 'rgba(255, 215, 0, 0.3)';
+                setTimeout(() => {
+                    card.style.background = 'rgba(255, 255, 255, 0.1)';
+                }, 300);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+services:
+  apache:
+    image: httpd:2.4
+    container_name: apache_ej2
+    ports:
+      - "8080:80"
+    volumes:
+      - ./www:/usr/local/apache2/htdocs:ro
+      - ./httpd.conf:/usr/local/apache2/conf/httpd.conf:ro
+      - ./httpd.conf:/usr/local/apache2/conf/extra/httpd-vhosts.conf:ro
+    restart: unless-stopped
