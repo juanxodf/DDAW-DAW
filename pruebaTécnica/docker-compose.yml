@@ -1,0 +1,11 @@
+services:
+  apache:
+    image: httpd:2.4
+    container_name: prueba-tecnica
+    ports:
+      - "80:80"
+    volumes:
+      - ./httpd/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./httpd/httpd-vhosts.conf:/usr/local/apache2/conf/extra/httpd-vhosts.conf
+      - ./www:/usr/local/apache2/htdocs
+    restart: unless-stopped
