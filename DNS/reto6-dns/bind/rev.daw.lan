@@ -1,0 +1,11 @@
+$TTL 86400
+@ IN SOA pri.daw.lan. root.daw.lan. (
+2026022202 ; Serial
+3600       ; Refresh
+1800       ; Retry
+604800     ; Expire
+86400 )    ; Minimum TTL
+
+@ IN NS pri.daw.lan.
+
+1.0.0.127.in-addr.arpa. IN PTR pri.daw.lan.

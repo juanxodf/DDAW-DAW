@@ -1,0 +1,12 @@
+services:
+  dns:
+    image: internetsystemsconsortium/bind9:9.18
+    container_name: dns_reto6
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+    volumes:
+      - ./bind/named.conf:/etc/bind/named.conf:ro
+      - ./bind/for.daw.lan:/etc/bind/for.daw.lan:ro
+      - ./bind/rev.daw.lan:/etc/bind/rev.daw.lan:ro
+    restart: unless-stopped
